@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Semana6</string>
+    <string name="botonmain1">Action Bar</string>
+    <string name="botonmain2">Mmedia</string>
+    <string name="botonMmedia1">Audio</string>
+    <string name="botonMmedia2">Video</string>
+    <string name="botonMmedia3">Animacion</string>
+    <string name="botonplay">Play</string>
+    <string name="botonpause">Pause</string>
+    <string name="botoniniciar">Iniciar</string>
+</resources>

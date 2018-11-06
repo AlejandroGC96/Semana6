@@ -1,0 +1,54 @@
+package com.example.alex_.semana6;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuInflater;
+import android.view.View;
+import android.widget.Button;
+
+public class Mmedia extends AppCompatActivity {
+
+
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.mmedia);
+
+
+
+        final Button boton1 = (Button)findViewById(R.id.button3);
+        final Button boton2 = (Button)findViewById(R.id.button4);
+        final Button boton3 = (Button)findViewById(R.id.button5);
+        boton1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent audio = new Intent(Mmedia.this, Audio.class);
+                startActivity(audio);
+            }
+        });
+
+               boton2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent video = new Intent(Mmedia.this, Video.class);
+                startActivity(video);
+            }
+        });
+
+        boton3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent animacion = new Intent(Mmedia.this, Animacion.class);
+                startActivity(animacion);
+            }
+        });
+
+    }
+
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+}
