@@ -12,6 +12,14 @@
         android:id="@+id/action_settings"
         android:title="Settings">
     </item>
+    <item
+        android:id="@+id/action_inicio"
+        android:title="Inicio">
+    </item>
+    <item
+        android:id="@+id/action_media"
+        android:title="Mmedia">
+    </item>
 
 </menu>
 
