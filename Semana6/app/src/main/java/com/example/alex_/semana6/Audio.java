@@ -23,9 +23,13 @@ public class Audio extends AppCompatActivity {
 
         boton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                mp.start();
 
-            }
+                    mp.seekTo(0);
+                    mp.start();
+
+
+                }
+
         });
         boton2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

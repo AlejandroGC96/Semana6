@@ -8,10 +8,6 @@
     <string name="botonplay">Play</string>
     <string name="botonpause">Pause</string>
     <string name="botoniniciar">Iniciar</string>
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

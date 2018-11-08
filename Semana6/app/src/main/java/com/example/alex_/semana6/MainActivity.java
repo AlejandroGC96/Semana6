@@ -14,10 +14,6 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private DrawerLayout mDrawerLayout;
-    private ListView mDrawerList;
-    private ArrayAdapter mStringAdaptor;
-    private String[] mStringOfPlanets;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         final Button boton1 = (Button)findViewById(R.id.button);
         final Button boton2 = (Button)findViewById(R.id.button2);
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerList = (ListView) findViewById(R.id.left_drawer);
-        // init adaptor
-      //  mStringAdaptor = new ArrayAdapter<String>(MainActivity.this, R.layout.drawer_list, mStringOfPlanets);
-     //   mDrawerList.setAdapter(mStringAdaptor);
 
         boton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

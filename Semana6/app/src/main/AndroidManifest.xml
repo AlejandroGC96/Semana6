@@ -28,6 +28,10 @@
         </activity>
         <activity android:name="com.example.alex_.semana6.Animacion">
         </activity>
+        <activity android:name=".NavigationDrawer"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
     </application>
 
 </manifest>
