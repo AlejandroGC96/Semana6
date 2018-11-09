@@ -1,5 +1,7 @@
 package com.example.alex_.semana6;
 
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -10,9 +12,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.support.design.widget.NavigationView;
 import android.view.View;
+import android.widget.MediaController;
+import android.widget.TextView;
+import android.widget.VideoView;
+
+import pl.droidsonroids.gif.GifDrawable;
 
 public class NavigationDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,11 +74,36 @@ public class NavigationDrawer extends AppCompatActivity
 
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        final TextView texto = (TextView)findViewById(R.id.textoinformacionship);
+        final VideoView video = (VideoView)findViewById(R.id.videoView2);
+        String uriPath = "android.resource://"+getPackageName()+"/"+R.raw.xwing;
+        Uri uri = Uri.parse(uriPath);
+        video.setVideoURI(uri);
+
+
+
+
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
+
+            video.setVisibility(View.VISIBLE);
+            texto.setText("El caza estelar T-65B Ala-X fue una nave de un solo asiento fabricado por la Corporación Incom " +
+                    "y utilizada por la Alianza para Restaurar la República durante la Guerra Civil Galáctica." +
+                    " Reconocido por su velocidad y maniobrabilidad en la batalla, " +
+                    "se convirtió en el principal caza estelar del Cuerpo de Cazas Estelares de la Alianza Rebelde ");
+            video.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                public void onPrepared(MediaPlayer arg0) {
+
+                    video.start();
+                    arg0.setLooping(true);//Loop
+
+                }
+            });
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+
+
 
         } else if (id == R.id.nav_slideshow) {
 

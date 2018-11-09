@@ -10,4 +10,15 @@
     <string name="botoniniciar">Iniciar</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="textoontentmain">Abre el menu hombre, que esta hecho.</string>
+    <string name="buenosdias">Buenos Dias</string>
+    <string name="buenasnoches">Buenas Noches</string>
+    <string name="t65alax">T-65B Ala-X</string>
+    <string name="alay">Ala-Y</string>
+    <string name="falcon">YT-1300</string>
+    <string name="alaa">Ala-A</string>
+    <string name="tiefighter">Caza TIE</string>
+    <string name="tieavanzado">TIE Avanzado</string>
+    <string name="lammbda">Lanzadera T-4a clase Lambda</string>
+    <string name="interceptor">Interceptor TIEs</string>
 </resources>

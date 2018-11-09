@@ -6,32 +6,40 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/react"
-            android:title="Import" />
+            android:icon="@drawable/rebeldes"
+            android:title="@string/t65alax" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/react"
-            android:title="Gallery" />
+            android:icon="@drawable/rebeldes"
+            android:title="@string/alay" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/react"
-            android:title="Slideshow" />
+            android:icon="@drawable/rebeldes"
+            android:title="@string/alaa" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/react"
-            android:title="Tools" />
+            android:icon="@drawable/rebeldes"
+            android:title="@string/falcon" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Imperio Intergalactico">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/react"
-                android:title="Share" />
+                android:icon="@drawable/imperio"
+                android:title="@string/tiefighter" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/react"
-                android:title="Send" />
+                android:icon="@drawable/imperio"
+                android:title="@string/tieavanzado" />
+            <item
+                android:id="@+id/nav_lanzadera"
+                android:icon="@drawable/imperio"
+                android:title="@string/lammbda" />
+            <item
+                android:id="@+id/nav_interceptor"
+                android:icon="@drawable/imperio"
+                android:title="@string/interceptor" />
         </menu>
     </item>
 
