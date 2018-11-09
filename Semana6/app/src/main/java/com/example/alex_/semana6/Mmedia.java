@@ -20,6 +20,9 @@ public class Mmedia extends AppCompatActivity {
         final Button boton1 = (Button)findViewById(R.id.button3);
         final Button boton2 = (Button)findViewById(R.id.button4);
         final Button boton3 = (Button)findViewById(R.id.button5);
+        final Button boton4 = (Button)findViewById(R.id.button10);
+        final Button boton5 = (Button)findViewById(R.id.button11);
+
         boton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -43,6 +46,22 @@ public class Mmedia extends AppCompatActivity {
                 startActivity(animacion);
             }
         });
+        boton4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent YT = new Intent(Mmedia.this, VideoYT.class);
+                startActivity(YT);
+            }
+        });
+
+       boton5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent MP4 = new Intent(Mmedia.this, VideoMP4.class);
+                startActivity(MP4);
+            }
+        });
+
 
     }
 

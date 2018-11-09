@@ -21,4 +21,7 @@
     <string name="tieavanzado">TIE Avanzado</string>
     <string name="lammbda">Lanzadera T-4a clase Lambda</string>
     <string name="interceptor">Interceptor TIEs</string>
+    <string name="botonnavigationdraver">Navigation Drawer</string>
+    <string name="botonvideoyt">VIDEO DE YT</string>
+    <string name="botonvideomp4">VIDEO MP4</string>
 </resources>

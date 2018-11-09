@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.alex_.semana6">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/nuevoicono"
@@ -9,6 +11,7 @@
         android:roundIcon="@mipmap/nuevoicono_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +33,13 @@
         </activity>
         <activity android:name=".NavigationDrawer"
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name="com.example.alex_.semana6.VideoYT">
+        </activity>
+        <activity android:name="com.example.alex_.semana6.VideoMP4"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
 
     </application>

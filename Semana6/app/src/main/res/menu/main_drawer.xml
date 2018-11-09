@@ -5,19 +5,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_xwing"
             android:icon="@drawable/rebeldes"
             android:title="@string/t65alax" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_ywing"
             android:icon="@drawable/rebeldes"
             android:title="@string/alay" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_awing"
             android:icon="@drawable/rebeldes"
             android:title="@string/alaa" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_falcon"
             android:icon="@drawable/rebeldes"
             android:title="@string/falcon" />
     </group>
@@ -25,11 +25,11 @@
     <item android:title="Imperio Intergalactico">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_fighter"
                 android:icon="@drawable/imperio"
                 android:title="@string/tiefighter" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_avanced"
                 android:icon="@drawable/imperio"
                 android:title="@string/tieavanzado" />
             <item
