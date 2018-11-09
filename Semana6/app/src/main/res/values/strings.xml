@@ -8,4 +8,17 @@
     <string name="botonplay">Play</string>
     <string name="botonpause">Pause</string>
     <string name="botoniniciar">Iniciar</string>
+    <string name="btIO">I-O</string>
+    <string name="touch">Tocame para mostrar un mensaje</string>
+    <string name="numSensores">Sensores disponibles</string>
+    <string name="datosSensores">Datos sensores</string>
+    <string name="etiqSensorMovimiento">Acelerometro</string>
+    <string name="presionAtm">Presion Atmosferica</string>
+    <string name="luz">Sensor de luz</string>
+    <string name="proximidad">Sensor de proximidad</string>
+    <string name="temperatura">Sensor de temperatura</string>
+    <string name="humedad">Sensor de humedad</string>
+    <string name="aceleracion">Sensor de aceleracion lineal</string>
+    <string name="step">Sensor contador de pasos</string>
+
 </resources>
