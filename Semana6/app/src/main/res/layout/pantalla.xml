@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvPantalla"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fbe275"
+        android:text="@string/touch">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btListaSensores"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/numSensores" />
+
+    <Button
+        android:id="@+id/btDatosSensores"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/datosSensores" />
+
+</LinearLayout>

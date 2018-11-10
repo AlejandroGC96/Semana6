@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         final Button boton1 = (Button)findViewById(R.id.button);
         final Button boton2 = (Button)findViewById(R.id.button2);
 
+        final Button btIO = (Button) findViewById(R.id.btIO);
         boton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -38,7 +39,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btIO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                lanzarIO();
+            }
+        });
 
+
+    }
+
+    public void lanzarIO(){
+        Intent intencion= new Intent(this, IoActivity.class);
+        startActivity(intencion);
     }
 
 

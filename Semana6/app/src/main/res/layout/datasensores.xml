@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvDatos"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/datosSensores">
+    </TextView>
+
+    <TextView android:id = "@+id/etiqAcelerometro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/etiqSensorMovimiento">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvAcelerometro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView android:id = "@+id/etiqPresion"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/presionAtm">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvPresionAtmosferica"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView android:id = "@+id/etiqLuz"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/luz">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvLuz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView android:id = "@+id/etiqProximidad"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proximidad">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvProximidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView android:id = "@+id/etiqTemperatura"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperatura">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvTemperatura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView android:id = "@+id/etiqHumedad"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/humedad">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvHumedad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView android:id = "@+id/etiqAceleracion"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleracion">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvAceleracion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView android:id = "@+id/etiqStep"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/tvStep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>
+</ScrollView>
