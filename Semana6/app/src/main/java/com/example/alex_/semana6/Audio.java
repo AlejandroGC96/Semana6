@@ -25,34 +25,26 @@ public class Audio extends AppCompatActivity {
         final Button boton1 = (Button)findViewById(R.id.button6);
         final Button boton2 = (Button)findViewById(R.id.button7);
         final Button boton3 = (Button)findViewById(R.id.button8);
-        mp = MediaPlayer.create(Audio.this, R.raw.megaman);
-        // Get ListView object from xml
        final ListView listView = (ListView) findViewById(R.id.list);
+        mp = MediaPlayer.create(Audio.this, R.raw.megaman);
 
-        // Defined Array values to show in ListView
-        String[] values = new String[] { "Mega man", "Sonic the Hedgehog"
-        };
+        String[] values = new String[] { "Mega man", "Sonic the Hedgehog"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
 
 
-        // Assign adapter to ListView
         listView.setAdapter(adapter);
 
-        // ListView Item Click Listener
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                // ListView Clicked item index
                 int itemPosition     = position;
 
-                // ListView Clicked item value
                 String  itemValue    = (String) listView.getItemAtPosition(position);
 
-                // Show Alert
                 Toast.makeText(getApplicationContext(),
                         "Opcion :"+itemPosition+" " +itemValue , Toast.LENGTH_LONG).show();
 
